@@ -1,0 +1,5 @@
+site_name: Sanp's Blog
+theme: windmill
+nav:
+  - Home: index.md
+  - About: about.md
