@@ -1,5 +1,5 @@
 site_name: Sanp's Blog
-theme: windmill
+theme: cinder
 nav:
   - Home: index.md
   - About: about.md
