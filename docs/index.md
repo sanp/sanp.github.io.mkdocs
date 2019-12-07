@@ -1,7 +1,9 @@
 # Welcome to Sanp's blog
 
-A blog where I write about random techy/programming things I'm doing.
+This is a blog where I write about random techy / programming things I'm doing.
+
+Learn more about me in my [About](about) section.
 
 ## Posts
 
-Nothing yet...
+Coming soon...
