@@ -1,6 +1,8 @@
 site_name: Sanp's Blog
 site_author: Steve SanPietro
 site_description: A blog.
+remote_branch: master
+remote_name: origin
 copyright: "Copyright © 2019 Steve SanPietro"
 theme:
   name: cinder
