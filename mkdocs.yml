@@ -5,8 +5,8 @@ remote_branch: master
 remote_name: origin
 copyright: "Copyright © 2019 Steve SanPietro"
 theme:
-  name: cinder
-  custom_dir: cinder-theme-ext
+  name: 'material'
+  custom_dir: 'theme'
 plugins:
   - search
   - macros
@@ -15,7 +15,6 @@ nav:
   - About: about.md
   - Posts: posts.md
 extra:
-  my_name: Steve
   github:
     page: https://github.com/sanp
     repos:
