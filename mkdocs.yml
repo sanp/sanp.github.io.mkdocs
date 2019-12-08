@@ -9,7 +9,6 @@ theme:
   custom_dir: cinder-theme-ext
 plugins:
   - search
-#   - git-revision-date
   - macros
 nav:
   - Home: index.md
