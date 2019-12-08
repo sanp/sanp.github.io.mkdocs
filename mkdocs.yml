@@ -13,4 +13,4 @@ nav:
   - Posts: posts.md
 plugins:
   - search
-  - macros
+  - git-revision-date
