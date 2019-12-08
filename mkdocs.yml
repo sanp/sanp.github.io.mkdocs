@@ -1,16 +1,23 @@
 site_name: Sanp's Blog
 site_author: Steve SanPietro
-site_description: A blog.
+site_description: A blog about tech and programming
 remote_branch: master
 remote_name: origin
 copyright: "Copyright © 2019 Steve SanPietro"
 theme:
   name: cinder
   custom_dir: cinder-theme-ext
+plugins:
+  - search
+  - git-revision-date
+  - macros
 nav:
   - Home: index.md
   - About: about.md
   - Posts: posts.md
-plugins:
-  - search
-  - macros
+extra:
+  my_name: Steve
+  github:
+    page: https://github.com/sanp
+    repos:
+      dotfiles: dotfiles
