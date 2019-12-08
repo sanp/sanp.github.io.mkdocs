@@ -1,10 +1,10 @@
 # About Me
 
-My name is Steve.
+## Hi, I'm Steve ([@sanp]({{ github.page }}))
 
-I am a Software Engineer in Chicago and I'm interested in `python`, `vim` / `neovim`,
-`scala`, `SQL`, AWS, and big data. I'm also interested in learning more about
-functional programming.
+I'm a Software Engineer in Chicago and I'm interested in `python`, `vim` /
+`neovim`, `scala`, `SQL`, AWS, and big data. I'm also interested in learning
+more about functional programming.
 
 ## Links
 
