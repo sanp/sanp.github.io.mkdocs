@@ -44,10 +44,9 @@ extra:
     page: https://github.com/sanp
     repos:
       dotfiles: dotfiles
-  disqus: 'sanps-blog'
 nav:
   - Home: index.md
   - About: about.md
   - 2019: 
-    - 'Using GitFlow to improve your git workflow': '2019/gitflow.md'
     - 'Using interactive rebase to ensure a clean git history': '2019/rebasing.md'
+    - 'Using GitFlow to improve your git workflow': '2019/gitflow.md'

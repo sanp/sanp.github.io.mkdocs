@@ -5,7 +5,7 @@
 GitFlow is a basic `git` workflow created by Vincent Driessen and described in
 his blog post [here](https://nvie.com/posts/a-successful-git-branching-model).
 I've been using a modified version of GitFlow for a while now, and thought it
-would make a good first blog post.
+would be a good thing to talk about here.
 
 In this post, I'm going to describe GitFlow and talk about a couple additional
 things I do when using it.
