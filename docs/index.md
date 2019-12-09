@@ -17,7 +17,7 @@ To make this blog, I'm using:
 
   - [mkdocs](https://www.mkdocs.org/), a static site framework
   - The [material for mkdocs](https://squidfunk.github.io/mkdocs-material/) theme
-  - Seveeral material for mkdocs 
+  - Several material for mkdocs 
       [extensions](https://squidfunk.github.io/mkdocs-material/extensions/admonition/)
   - The [mkdocs-macros](https://github.com/fralau/mkdocs_macros_plugin) plugin
   - [Github pages](https://pages.github.com/) to host
