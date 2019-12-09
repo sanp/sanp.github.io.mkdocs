@@ -24,8 +24,8 @@ things I do when using it.
 
 ### Development lifecycle
 
-The basic GitFlow workflow is outlined in Fig. 1. GitFlow assumes that your
-deployment lifecycle is like the following:
+The basic GitFlow is outlined in Fig. 1. GitFlow assumes that your deployment
+lifecycle is like the following:
 
   * Work is divided into [sprints](https://www.atlassian.com/agile/scrum/sprints) 
   * During a sprint, developers will work on a handful of features
@@ -148,8 +148,9 @@ git merge develop
 git push
 ```
 
-Note that you may need to resolve some merge conflicts at this stage. I
-recommend [DiffMerge](https://sourcegear.com/diffmerge/) for this.
+!!! Note
+    You may need to resolve some merge conflicts at this stage. I recommend
+    [DiffMerge](https://sourcegear.com/diffmerge/) for this.
 
 ##### Step 3: PR from feature branch into develop
 
@@ -177,7 +178,7 @@ The feature is now complete.
 #### Multiple developers working on a feature
 
 If more than one developer is working on the same feature, the process is only
-slightly more complicated than if only one developer is working on the feature.
+slightly more complicated than if one developer is working on the feature.
 
 Let's say Alice, Bob, and Carol are all working on the feature from above. The
 following is how they would each work together.
