@@ -7,15 +7,45 @@ copyright: "Copyright © 2019 Steve SanPietro"
 theme:
   name: 'material'
   custom_dir: 'theme'
+extra_css:
+  - 'style/css/extra.css'
+extra_javascript:
+  - 'style/js/extra.js'
 plugins:
   - search
   - macros
-nav:
-  - Home: index.md
-  - About: about.md
-  - Posts: posts.md
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - markdown.extensions.attr_list
 extra:
   github:
     page: https://github.com/sanp
     repos:
       dotfiles: dotfiles
+nav:
+  - Home: index.md
+  - About: about.md
+  - 2019: 
+    - 'Using GitFlow to improve your git workflow': '2019/gitflow.md'
+    - 'Using interactive rebase to ensure a clean git history': '2019/rebasing.md'
