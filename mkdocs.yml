@@ -14,7 +14,6 @@ extra_javascript:
   - 'style/js/extra.js'
 plugins:
   - search
-  - macros
 markdown_extensions:
   - admonition
   - codehilite:
