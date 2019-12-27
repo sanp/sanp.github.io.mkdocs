@@ -98,8 +98,7 @@ Fig. 1. Once all coding and testing are done, you can merge the feature branch
 back into `develop`.
 
 The specific commands for how to work on a feature branch and merge it back into
-`develop` are described in parts [two](gitflow_2.md) and [three](gitflow_3.md)
-of this series.
+`develop` are described in part [two](gitflow_2.md) of this series.
 
 ### Releasing features
 
