@@ -44,9 +44,15 @@ extra:
     page: https://github.com/sanp
     repos:
       dotfiles: dotfiles
+  posts:
+    gitflow:
+      part1_title: &gitflow_part1_title 'Gitflow Part 1: Overview of Gitflow'
+      part2_title: &gitflow_part2_title 'Gitflow Part 2: Step by step guide to Working on a feature'
+    
 nav:
   - Home: index.md
   - About: about.md
   - 2019: 
     - 'Using interactive rebase to ensure a clean git history': '2019/rebasing.md'
-    - 'Using GitFlow to improve your git workflow': '2019/gitflow.md'
+    - *gitflow_part1_title: '2019/gitflow_1.md'
+    - *gitflow_part2_title: '2019/gitflow_2.md'
