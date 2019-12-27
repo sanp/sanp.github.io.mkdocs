@@ -2,7 +2,7 @@ site_name: Sanp's Blog
 site_author: Steve SanPietro
 site_description: A blog about tech and programming
 site_url: https://sanp.github.io
-remote_branch: master
+remote_branch: goo
 remote_name: origin
 copyright: "Copyright © 2019 Steve SanPietro"
 theme:
