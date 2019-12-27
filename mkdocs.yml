@@ -12,6 +12,9 @@ extra_css:
   - 'style/css/extra.css'
 extra_javascript:
   - 'style/js/extra.js'
+plugins:
+  - search
+  - macros
 markdown_extensions:
   - admonition
   - codehilite:
@@ -36,9 +39,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
   - markdown.extensions.attr_list
-plugins:
-  - search
-  - macros
 extra:
   github:
     page: https://github.com/sanp
