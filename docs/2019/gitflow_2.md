@@ -152,8 +152,12 @@ git push
 ```
 
 !!! Note
-    You may need to resolve some merge conflicts at this stage. I recommend
-    [DiffMerge](https://sourcegear.com/diffmerge/) for this.
+    You may need to resolve some merge conflicts at this stage. To do this, you
+    can use a merge tool such as [DiffMerge](https://sourcegear.com/diffmerge/).
+    You can also use Tim Pope's
+    [fugitive](https://github.com/tpope/vim-fugitive) plugin to handle merge
+    conflicts. For more info on how to do that, see [this
+    screencast](http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/).
 
 ### Step 5: PR from feature branch into develop
 
