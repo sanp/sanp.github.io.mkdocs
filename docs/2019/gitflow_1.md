@@ -1,11 +1,11 @@
-# {{ posts.gitflow.part1_title }}
+# Gitflow Part 1: Overview of Gitflow
 
 !!! abstract
     Welcome to part one of a two part series on GitFlow. When you're done reading
     part one, check out part two.
 
-      - [{{ posts.gitflow.part1_title }}](gitflow_1.md)
-      - [{{ posts.gitflow.part2_title }}](gitflow_2.md)
+      - [Gitflow Part 1: Overview of Gitflow](gitflow_1.md)
+      - [Gitflow Part 2: Step by step guide to Working on a feature](gitflow_2.md)
 
 ## Intro
 

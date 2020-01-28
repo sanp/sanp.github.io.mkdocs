@@ -1,11 +1,11 @@
-# {{ posts.gitflow.part2_title }}
+# Gitflow Part 2: Step by step guide to Working on a feature
 
 !!! abstract
     Welcome to part two of my series on GitFlow. If you're just getting
     here, check out part one first. 
 
-      - [{{ posts.gitflow.part1_title }}](gitflow_1.md)
-      - [{{ posts.gitflow.part2_title }}](gitflow_2.md)
+      - [Gitflow Part 1: Overview of Gitflow](gitflow_1.md)
+      - [Gitflow Part 2: Step by step guide to Working on a feature](gitflow_2.md)
 
 ## GitFlow and Jira
 
