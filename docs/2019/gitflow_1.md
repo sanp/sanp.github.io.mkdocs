@@ -135,11 +135,14 @@ and create a second PR from `release/1.2.3` into `develop`.
   [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 Once these PRs are merged, you can then
-[tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) the commits in both
-`develop` and `master` with the version number:
+[tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging) the commits in `master`
+with the version number, and then push the tag to the remote:
 
 ```sh
-git tag -a 1.2.3
+git checkout master
+git pull
+git tag 1.2.3
+git push origin 1.2.3
 ```
 
 ### Making a hotfix
