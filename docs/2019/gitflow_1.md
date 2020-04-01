@@ -14,14 +14,10 @@ his blog post [here](https://nvie.com/posts/a-successful-git-branching-model).
 I've been using a modified version of GitFlow for a while now, and thought it
 would be a good thing to talk about on this blog.
 
-In part one of this three-part series, I'm going to describe GitFlow and talk
-about how it fits into a team's development lifecycle. In parts two and three,
-I'll discuss working on a new feature, and give a step-by-step breakdown of what
-commands to use when working on a new feature.
-
-Part two will focus on just one developer working on a feature alone; part
-three will extend that to show how multiple developers can all collaborate on a
-single feature together.
+In part one of this two-part series, I'm going to describe GitFlow and talk
+about how it fits into a team's development lifecycle. In part two I'll discuss
+working on a new feature, and give a step-by-step breakdown of what commands to
+use when working on a new feature.
 
 !!! Disclaimer
     GitFlow isn't for everyone. It works best when your deployment cycle is
@@ -40,7 +36,7 @@ single feature together.
 The basic GitFlow is outlined in Fig. 1. GitFlow assumes that your deployment
 lifecycle is like the following:
 
-  * Work is divided into [sprints](https://www.atlassian.com/agile/scrum/sprints) 
+  * Work is divided into [sprints](https://www.atlassian.com/agile/scrum/sprints)
   * During a sprint, developers will work on a handful of features
   * When all of the sprint's features are finished, they will be packaged into a
     release
@@ -52,7 +48,7 @@ to the different stages of this lifecycle.
 ### Branches
 
 Each repo should have two persistent branches which live forever: `develop` and
-`master`. 
+`master`.
 
   * `master` contains the code for the release which is currently deployed
      to production. It should never contain anything which is not released.
@@ -148,11 +144,11 @@ git push origin 1.2.3
 ### Making a hotfix
 
 To make a hotfix, fork a branch off of `master` and then merge it back into
-`develop` and `master`, as shown in Fig. 1. 
+`develop` and `master`, as shown in Fig. 1.
 
 Since hotfixes are ultimately merged back into `master`, they are also new
 releases (since every commit to master is a new release). Therefore, like
-release branches, hotfixes should also have a release number. 
+release branches, hotfixes should also have a release number.
 
 Further, because hotfixes are generally small changes, the release version
 number for a hotfix should usually just increment the patch number of the
